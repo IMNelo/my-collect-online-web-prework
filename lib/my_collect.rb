@@ -20,14 +20,14 @@ def my_collect(languages)
       counter += 1
     end
 
-
+ #-------------------------------------------------------
 #"yields the correct element from a given collection, in this case languages"
 def my_collect(languages)
  languages.collect do |x|
  puts x
  end
  end
- 
+  #-------------------------------------------------------
  #"returns a new collection of appropriately modified elements, in this case capitalized languages"
  
  def my_collect(languages)
@@ -46,11 +46,6 @@ end
  
  #************************************************************
  
- 
-
-
-
-
 
   it "yields the correct element from the given collection, in this case students" do
     my_collect(students) do |student|
