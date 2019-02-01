@@ -53,10 +53,12 @@ end
     end
   end
  def my_collect
+   student.collect do |x|
    yield student
  end
  
- def my_collect do |student|
+ def my_collect do |i|
+   puts "#{i}""
  end
 
   
