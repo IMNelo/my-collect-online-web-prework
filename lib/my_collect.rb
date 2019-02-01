@@ -53,6 +53,13 @@ def my_collect(languages)
       expect(student).to_not eq(nil)
     end
   end
+  
+  def my_collect(student)
+    i = 0
+    while i 
+  
+  
+  
 
   it "returns a new collection of appropriately modified elements, in this case student first names" do
     expect(my_collect(students) do |student|
