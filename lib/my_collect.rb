@@ -35,22 +35,19 @@ def my_collect(languages)
      language.upcase
    end
  end
- 
+ #-------------------------------------------------------
+ #'does not modify the original collection' do
+def my_collect(languages)
+  languages.collect do |language|
+  language.upcase
+end
+end
  
  
  #************************************************************
  
  
-#'does not modify the original collection' do
-    my_collect(languages) do |language|
-      language.upcase
-    end
-    expect(languages).to eq(['ruby', 'javascript', 'python', 'objective-c'])
-  end
-#\\\\\\\\\\
-def my_collect(languages)
-  languages.upcase
-end
+
 
 
 
