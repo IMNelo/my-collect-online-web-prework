@@ -53,7 +53,7 @@ end
     end
   end
  def my_collect
-   yield
+   yield student
  end
  
  def my_collect do |student|
