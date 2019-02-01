@@ -52,7 +52,12 @@ end
       expect(student).to_not eq(nil)
     end
   end
-  
+ def my_collect
+   yield
+ end
+ 
+ def my_collect do |student|
+ end
 
   
   
