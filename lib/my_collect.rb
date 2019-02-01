@@ -47,6 +47,13 @@ def my_collect(languages)
     end
     expect(languages).to eq(['ruby', 'javascript', 'python', 'objective-c'])
   end
+#\\\\\\\\\\
+def my_collect(languages)
+  languages.upcase
+end
+
+
+
 
   it "yields the correct element from the given collection, in this case students" do
     my_collect(students) do |student|
@@ -54,9 +61,7 @@ def my_collect(languages)
     end
   end
   
-  def my_collect(student)
-    i = 0
-    while i 
+
   
   
   
